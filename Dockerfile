@@ -8,7 +8,7 @@ ARG BuildPath=/go/bin/prometheus_varnish_exporter
 
 RUN go build -o $BuildPath
 
-FROM varnish:7.1.2
+FROM orionpt/varnish:latest
 
 EXPOSE 9131
 VOLUME /var/lib/varnish
