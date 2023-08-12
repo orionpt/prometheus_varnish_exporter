@@ -1,4 +1,4 @@
-FROM golang:1.21.0 as gobuilder
+FROM golang:1.17.4 as gobuilder
 
 
 ADD ./* /Workingdir
