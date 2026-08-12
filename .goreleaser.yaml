@@ -32,7 +32,7 @@ dockers_v2:
     extra_files:
       - build/entrypoint.sh
     images:
-      - ghcr.io/otto-de/prometheus-varnish-exporter
+      - ghcr.io/orionpt/prometheus-varnish-exporter
     tags:
       - "{{.Version}}-varnish-7.4.3"
       - latest
